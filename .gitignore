@@ -11,3 +11,15 @@ connector-svn.php
 node_modules
 connector.php
 .jshintrc
+yarn.lock
+
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
