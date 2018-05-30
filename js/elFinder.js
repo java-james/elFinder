@@ -4333,11 +4333,11 @@ var elFinder = function(elm, opts, bootCallback) {
 		if (!self.i18[lang]) {
 			self.lang = 'en';
 			if (self.hasRequire) {
-				require([langJs], function() {
-					dfd.resolve();
-				}, function() {
-					dfd.resolve();
-				});
+				//require([langJs], function() {
+				//	dfd.resolve();
+				//}, function() {
+				//	dfd.resolve();
+				//});
 			} else {
 				self.loadScript([langJs], function() {
 					dfd.resolve();
@@ -8787,7 +8787,7 @@ elFinder.prototype = {
 		
 		opts = opts || {};
 		if (opts.tryRequire && this.hasRequire) {
-			require(urls, callback, opts.error);
+			// require(urls, callback, opts.error);
 		} else {
 			success = function() {
 				var cnt, fi, hasError;

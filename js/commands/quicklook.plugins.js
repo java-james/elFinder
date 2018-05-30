@@ -139,7 +139,7 @@ elFinder.prototype.commands.quicklook.plugins = [
 	 *
 	 * @param elFinder.commands.quicklook
 	 **/
-	function(ql) {
+	/*function(ql) {
 		"use strict";
 		var fm      = ql.fm,
 			mimes   = fm.arrayFlip(['image/vnd.adobe.photoshop', 'image/x-photoshop']),
@@ -221,7 +221,7 @@ elFinder.prototype.commands.quicklook.plugins = [
 				}
 			}
 		});
-	},
+	},*/
 	
 	/**
 	 * HTML preview plugin
@@ -1097,7 +1097,7 @@ elFinder.prototype.commands.quicklook.plugins = [
 	 *
 	 * @param elFinder.commands.quicklook
 	 **/
-	function(ql) {
+	/*function(ql) {
 		"use strict";
 		var fm      = ql.fm,
 			mimes   = fm.arrayFlip(['application/x-rar']),
@@ -1211,7 +1211,7 @@ elFinder.prototype.commands.quicklook.plugins = [
 				}
 			});
 		}
-	},
+	},*/
 
 	/**
 	 * Any supported files preview plugin using Google docs online viewer

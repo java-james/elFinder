@@ -240,10 +240,11 @@ file({'js/elfinder.full.js': files['elfinder.full.js']}, function(){
 		data = data.replace(strict, '');
 	}
 	data = "(function(root, factory) {\n" +
-	"	if (typeof define === 'function' && define.amd) {\n" +
-	"		// AMD\n" +
-	"		define(['jquery','jquery-ui'], factory);\n" +
-	"	} else if (typeof exports !== 'undefined') {\n" +
+	//"	if (typeof define === 'function' && define.amd) {\n" +
+	//"		// AMD\n" +
+	//"		define(['jquery','jquery-ui'], factory);\n" +
+	//"	} else
+	" if (typeof exports !== 'undefined') {\n" +
 	"		// CommonJS\n" +
 	"		var $, ui;\n" +
 	"		try {\n" +
